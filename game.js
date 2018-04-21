@@ -1,3 +1,4 @@
-function rngsus() {
-    document.getElementById("rngout").innerHTML = Math.random();
+function diceroll()
+  {
+    document.getElementById("rngout").innerHTML = Math.floor(Math.random() * 11);
 }
