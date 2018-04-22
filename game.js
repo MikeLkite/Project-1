@@ -1,4 +1,9 @@
+window.onload = function() {
+    document.getElementById("rngout").innerHTML = Math.floor(Math.random() * 11);;
+}
+
 function diceroll()
   {
-    document.getElementById("rngout").innerHTML = Math.floor(Math.random() * 11);
+    var x = .input ;
+    document.getElementById("feedback").innerHTML = (x > 8);
 }

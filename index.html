@@ -10,25 +10,19 @@
 <div>
 </div>
   <div class="midmenu">
-      <button class="hitbutton" onclick="diceroll()"><h2>HIT ME!</h2>
-      <input type="number" class="input" name="input"></button>
+    <div class="onetentext"><h4>CHOOSE BETWEEN 0 - 10 AND HIT THE BUTTON</h4></div>
+      <div class="userinput"><input type="number" class="userinput" name="input"></button></div>
+      <button class="hitbutton" onclick="diceroll()"><h3>HIT ME!</h3></button>
       <div class="tries_text"><h2>TRIES</h2></div>
       <div class="score_text"><h2>SCORE</h2></div>
-      <div class="score_result"><h2>0</h2></div>
-      <div class="tries_result"><h2>0</h2></div>
-      <div class="onetentext"><h3>CHOOSE BETWEEN 1 - 10 AND HIT THE BUTTON</h3></div>
-      <div class="rngbox"><h5 id="demo"></h5></div>
-      <div class="bottommenu"><h2>FEEDBACK WORDS GO HERE!</h2></div>
+      <div class="score_result"><h6>0</h6></div>
+      <div class="tries_result"><h6>0</h6></div>
+      <div class="bottommenu"><h2 id="feedback"></h2></div>
 <div>
-  <div class="footer"><h2 id="rngout"><h2></div>
+  <div class="footer"><div class="rngbox"><h5 id="rngout"></h5></div>
 <div>
-<script>
 
-function diceroll()
-  {
-    document.getElementById("rngout").innerHTML = Math.floor(Math.random() * 11);
-}
- </script>
+<script src="game.js"></script>
 
 </body>
 
