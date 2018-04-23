@@ -43,7 +43,7 @@ h6 {
 		font-family: sans-serif;
 		font-size: calibri;
     text-align: center;
-		font-size: 20px;
+		font-size: 35px;
 }
 
 p {
@@ -57,14 +57,14 @@ div.topmenu {
 		width: 100%;
 		margin-top: auto;
 		outline-style: solid;
-		outline-color: black;
+		outline-color: red;
 
 }
 
 div.userinput {
 		width: 100%;
 		outline-style: solid;
-		outline-color: black;
+		outline-color: green;
 
 }
 
@@ -74,60 +74,64 @@ div.midmenu {
 	width: 800px;
 	margin:30px auto;
 	outline-style: solid;
-	outline-color: black;
+	outline-color: aqua;
 }
 
 div.bottommenu {
+		height: 100px;
 		width: 100%;
-		margin: auto;
+		margin-top: 20px;
 		text-align: center;
 		vertical-align: middle;
 		outline-style: solid;
-		outline-color: black;
+		outline-color: pink;
 
 }
 
 div.tries_text {
+	height: 100px;
 	width: 150px;
 	position: absolute;
 	left: 50px;
 	top: 150px;
-	border: 1px solid black;
-}
+	border: 1px solid purple;
+	}
 
 div.score_text {
 	width: 150px;
+	height: 100px;
 	position: absolute;
 	right: 50px;
 	top: 150px;
-	border: 1px solid black;
+	border: 1px solid purple;
 }
 
 div.score_result {
 	width: 150px;
 	position: absolute;
 	right: 50px;
-	top: 250px;
-	border: 1px solid black;
+	top: 175px;
+	border: 1px solid purple;
 }
 
 div.tries_result {
 		width: 150px;
 		position: absolute;
 		left: 50px;
-		top: 250px;
-		border: 1px solid black;
+		top: 175px;
+		border: 1px solid purple;
 	}
 
 div.inputbox {
 	display: block;
 	margin : 0 auto;
+	border: 1px solid grey;
 }
 
 div.onetentext {
 	margin-bottom: auto;
 	outline-style: solid;
-	outline-color: black;
+	outline-color: white;
 }
 
 div.rngbox {
@@ -138,18 +142,27 @@ div.rngbox {
 		vertical-align: middle;
 		line-height: 100px;
 		border-radius: 8px;
-		background-color: black;
+		background-color: orange;
 		font-size: 35px;
 		}
 
 div.footer {
+		height: 100px;
 		width: 100%;
 		text-align: center;
 		vertical-align: middle;
 		outline-style: solid;
-		outline-color: black;
+		outline-color: grey;
 
 		}
+
+div.result {
+				height: 100px;
+				width: 100%;
+				margin-top: 20px;
+				outline-style: solid;
+				outline-color: blue;
+				}
 
 .hitbutton {
 	    background-color: green;
