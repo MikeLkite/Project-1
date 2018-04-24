@@ -1,7 +1,15 @@
+//Mikes Casino
+
+var higher = 0;
+var lower = 0;
+var counter = 0;
+
+//Generates random number and puts it on page
 window.onload = function() {
     document.getElementById("rngout").innerHTML = Math.floor(Math.random() * 11);;
 }
 
+//compare RNG and user defined number on clicking hit me button
 document.getElementById('submit').onclick = compare;
 
 function compare() {
@@ -22,6 +30,8 @@ function compare() {
     comparison = 'CORRECT';
   }
 
-   document.getElementById('comparison').innerHTML = comparison;
-
+//output to bottommenu rngbox
+document.getElementById('comparison').innerHTML = comparison;
 }
+
+//count how many times a button is clicked
