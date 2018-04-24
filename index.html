@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-<title>Mikes Casino</title>
-</head>
-<body>
-<div>
-  <div class="topmenu"><h1>Higher or Lower?</h1></div>
-</div>
-<div>
-      <div class="midmenu">
+  <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Mikes Casino</title>
+  </head>
+  <body>
+    <div class="topmenu"><h1>Higher or Lower?</h1></div>
+    <div class="midmenu">
       <div class="onetentext"><h2>CHOOSE BETWEEN 1 - 10 AND HIT THE BUTTON</h2></div>
-      <div class="userinput"><input id="usernum" class="userinput" name="input"></button></div>
-      <button class="hitbutton" id="submit"><h4>HIT ME!</h4></button></div>
-      <div class="tries_text"><h2>TRIES</h2></div>
-      <div class="score_text"><h2>SCORE</h2></div>
-      <div class="tries_result"><h6>0</h6></div>
-      <div class="score_result"><h6>0</h6></div>
-      <div class="bottommenu"><h3 id="comparison"></h3></div>
-      <div class="footer"><div class="rngbox"><h5 id="rngout"></h5></div>
-</div>
-<script src="JS/game.js"></script>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-</body>
-
+      <div class="userinput">
+        <input id="usernum" class="userinput" name="input">
+      </div>
+      <button class="hitbutton" id="submit">
+        <h4>HIT ME!</h4>
+      </button>
+    </div>
+    <div class="tries_text"><h2>TRIES</h2></div>
+    <div id="tries_result">0</div>
+    <div class="bottommenu">
+      <h3 id="comparison"></h3>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="JS/game.js"></script>
+  </body>
 </html>
