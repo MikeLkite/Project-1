@@ -40,14 +40,6 @@ h5 {
     text-align: center;
 }
 
-h6 {
-    color: green;
-		font-family: sans-serif;
-		font-size: calibri;
-    text-align: center;
-		font-size: 35px;
-}
-
 p {
     color: white;
 		text-align: center;
@@ -112,13 +104,18 @@ div.score_result {
 	border: 1px solid black;
 }
 
-div.tries_result {
-		width: 150px;
-		position: absolute;
-		left: 50px;
-		top: 175px;
-		border: 1px solid black;
-	}
+div#tries_result {
+	width: 150px;
+	position: absolute;
+	left: 50px;
+	top: 175px;
+	border: 1px solid black;
+  color: green;
+  font-family: sans-serif;
+  font-size: calibri;
+  text-align: center;
+  font-size: 35px;
+}
 
 div.inputbox {
 	display: block;
